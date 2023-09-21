@@ -1,0 +1,23 @@
+public class dataNilai {
+    public static void main(String[] args) {
+      String name = "Raihan Alfarizi";
+      int nim = 1237050001;
+      double tugas = 88.8;
+      double uts = 85.5;
+      double uas = 81.1;
+      double akhir = tugas*30/100 + uts*30/100 + uas*40/100;
+      System.out.println("==== Data Nilai Mahasiswa ====");
+      System.out.println("NAMA : " + name);
+      System.out.println("NIM : " + nim);
+      System.out.println("Nilai Tugas : " + tugas);
+      System.out.println("Nilai UTS : " + uts);
+      System.out.println("Nilai UAS : " + uas);
+      System.out.println("Nilai Akhir : " + akhir);
+      System.out.println("=============================");
+      if(akhir > 80){
+          System.out.print(name + " Lulus ");
+      } else{
+          System.out.print(name + " Tidak Lulus ");
+      }
+    }
+  }
