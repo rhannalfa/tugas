@@ -1,4 +1,3 @@
-package Pertemuan3;
 public class operatorLogika {
     public static void main(String [] args){
 	int  A = 3; 
