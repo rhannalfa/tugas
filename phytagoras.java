@@ -1,5 +1,3 @@
-package Pertemuan3;
-
 import java.util.Scanner;
 public class phytagoras {
     public static void main(String[]args) {
