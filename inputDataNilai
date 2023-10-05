@@ -32,10 +32,10 @@ public class inputDataNilai {
         System.out.println("UAS = " + UAS);
         System.out.println("Nilai Akhir = " + Akhir);
         System.out.println("================================");
-        if(akhir >= 60){
-          System.out.print(name + " Lulus ");
+        if(Akhir >= 60){
+          System.out.print(Name + " Lulus ");
         } else{
-          System.out.print(name + " Tidak Lulus ");
+          System.out.print(Name + " Tidak Lulus ");
       }
     }
 }
